@@ -1,0 +1,12 @@
+<template>
+  <require from="./resources/nav-bar.html"></require>
+  <require from="materialize/dist/css/materialize.css"></require>
+
+  <nav-bar router.bind="router"></nav-bar>
+
+  <div class="page-host container">
+    <router-view></router-view>
+  </div>
+
+  <require from="materialize/js/materialize.js"></require>  
+</template>

@@ -1,0 +1,69 @@
+<template>
+    <div class="row center-align">
+        <div class="col s12">
+            <h1>${movie.title}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s4">
+            <div class="row center-align">
+                <img src.bind="movie.urlPoster" alt="" class="responsive-img">
+            </div>
+            <div class="row center-align">
+                <div class="chip" repeat.for="genre of movie.genres">
+                    ${genre}
+                </div>
+            </div>
+        </div>
+        <div class="col s8">
+            <div class="row">
+                <div class="row">
+                    <blockquote>
+                        ${movie.plot}
+                    </blockquote>
+                </div>
+                <div class="row">
+                    <div class="col s2 right-align">Directors:</div>
+                    <div class="col s10 left-align">
+                        <strong repeat.for="director of movie.directors">
+                            <span>${director.name}</span>
+                        </strong>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s2 right-align">Writers:</div>
+                    <div class="col s10 left-align">
+                        <strong repeat.for="writer of movie.writers">
+                            <span>${writer.name}</span>
+                        </strong>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s2 right-align">Countries:</div>
+                    <div class="col s10 left-align">
+                        <strong repeat.for="country of movie.countries">
+                            <span>${country}</span>
+                        </strong>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s2 right-align">Year:</div>
+                    <div class="col s10 left-align">
+                        <strong>
+                            <span>${movie.year}</span>
+                        </strong>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <a class="waves-effect waves-light btn" href.bind="movie.urlIMDB" target="_blank">
+                        <i class="material-icons">movie</i> IMDB
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

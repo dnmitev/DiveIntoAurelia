@@ -1,0 +1,21 @@
+<template bindable="router">
+    <nav class="#37474f blue-grey darken-3">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">
+                <i class="fa fa-film"></i>
+                <span>${router.title}</span>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
+                    <a href.bind="row.href">${row.title}</a>
+                </li>
+            </ul>
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="loader" if.bind="router.isNavigating">
+                    <i class="fa fa-spinner fa-spin fa-2x"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</template>
