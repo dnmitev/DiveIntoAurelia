@@ -1,7 +1,7 @@
+import 'fetch';
 import {autoinject} from 'aurelia-framework';
 import {HttpClient, json} from 'aurelia-fetch-client';
 import {Router} from 'aurelia-router';
-import 'fetch';
 
 @autoinject
 export class Home {
@@ -12,42 +12,39 @@ export class Home {
         http.configure(config => {
             config
                 .useStandardConfiguration()
-                .withBaseUrl('/data/');
+                .withBaseUrl('http://localhost:27765/api/movies/')
+                .withInterceptor({
+                    request(request) {
+                        if (request.method == 'POST') {
+                            request.headers.set('Content-Type', 'application/json');
+                            console.log(request.headers.has('Content-Length'));
+                        }
+                        return request; // you can return a modified Request, or you can short-circuit the request by returning a Response
+                    },
+                    response(response) {
+                        console.log(`Received ${response.status} ${response.url}`);
+                        return response; // you can return a modified Response
+                    }
+                });
         });
     }
 
     activate(params) {
-        return this.http.fetch('inTheaters.json')
-            .then(response => response.json())
-            .then(movies => { 
-                 movies.map((movie) => {
-                    if (movie.id == params.id) {
-                        this.movie = movie;
-                    }
-                });
-            });
+        return this.http.fetch(`get-movie/${params.id}`)
+                        .then(response => response.json())
+                        .then(movie => this.movie = movie);
     }
-    
-    editMovieDetails(id) {
-        console.log(`Movie with ID:${id} is editted`)
-        console.log(this.movie.title);
-        // this.http.fetch('route', {
-        //     method: 'put',
-        //     body: json(this.movie)
-        // });
-        
+
+    editMovieDetails(movie) {
+        console.log(movie);
+        this.http.fetch('edit-movie', {
+            method: 'post',
+            body: json(movie),
+            mode: 'no-cors'
+        });
+
         this.router.navigate('movies');
     }
-}
-
-export class UpperValueConverter {
-  toView(value) {
-    return value && value.toUpperCase();
-    }
-  
-  fromView(value) {
-      return value.toUpperCase();
-  }  
 }
 
 export class ToNumberValueConverter {

@@ -1,349 +1,378 @@
 [{
 		"id" : 1,
 		"title" : "The Shawshank Redemption",
-		"originalTitle" : "",
 		"year" : "1994",
-		"releaseDate" : "19941014",
-		"directors" : [{
-				"name" : "Frank Darabont",
-				"nameId" : "nm0001104"
-			}
+		"directors" : [
+			"Frank Darabont"
 		],
-		"writers" : [{
-				"name" : "Stephen King",
-				"nameId" : "nm0000175"
-			}, {
-				"name" : "Frank Darabont",
-				"nameId" : "nm0001104"
-			}
+		"writers" : [
+			"Stephen King",
+			"Frank Darabont",
 		],
-		"runtime" : ["142 min"],
 		"urlPoster" : "http://ia.media-imdb.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_UX182_CR0,0,182,268_AL_.jpg",
 		"countries" : ["USA"],
-		"languages" : ["English"],
 		"genres" : ["Crime", "Drama"],
 		"plot" : "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he claims he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red.",
-		"simplePlot" : "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-		"idIMDB" : "tt0111161",
 		"urlIMDB" : "http://www.imdb.com/title/tt0111161",
 		"rating" : "9.3",
-		"metascore" : "80",
-		"filmingLocations" : ["St. Croix", "U.S. Virgin Islands"],
-		"rated" : "R",
-		"votes" : "1,614,752",
-		"type" : "Movie",
 		"ranking" : 1
 	}, {
 		"id" : 2,
 		"title" : "The Godfather",
-		"originalTitle" : "",
 		"year" : "1972",
-		"releaseDate" : "19720324",
-		"directors" : [{
-				"name" : "Francis Ford Coppola",
-				"nameId" : "nm0000338"
-			}
+		"directors" : [
+			"Francis Ford Coppola",
 		],
-		"writers" : [{
-				"name" : "Mario Puzo",
-				"nameId" : "nm0701374"
-			}, {
-				"name" : "Francis Ford Coppola",
-				"nameId" : "nm0000338"
-			}
+		"writers" : [
+			"Mario Puzo",
+			"Francis Ford Coppola"
 		],
-		"runtime" : ["175 min"],
 		"urlPoster" : "http://ia.media-imdb.com/images/M/MV5BMjEyMjcyNDI4MF5BMl5BanBnXkFtZTcwMDA5Mzg3OA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
 		"countries" : ["USA"],
-		"languages" : ["English", "Italian", "Latin"],
 		"genres" : ["Crime", "Drama"],
 		"plot" : "When the aging head of a famous crime family decides to transfer his position to one of his subalterns, a series of unfortunate events start happening to the family, and a war begins between all the well-known families leading to insolence, deportation, murder and revenge, and ends with the favorable successor being finally chosen.",
-		"simplePlot" : "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-		"idIMDB" : "tt0068646",
 		"urlIMDB" : "http://www.imdb.com/title/tt0068646",
 		"rating" : "9.2",
-		"metascore" : "100",
-		"filmingLocations" : ["NY Eye and Ear Infirmary", "2nd Avenue & East 13th Street", "New York City", "New York", "USA"],
-		"rated" : "R",
-		"votes" : "1,105,860",
-		"type" : "Movie",
 		"ranking" : 2
 	}, {
 		"id" : 3,
 		"title" : "The Godfather: Part II",
-		"originalTitle" : "",
 		"year" : "1974",
-		"releaseDate" : "19741220",
-		"directors" : [{
-				"name" : "Francis Ford Coppola",
-				"nameId" : "nm0000338"
-			}
+		"directors" : [
+			"Francis Ford Coppola"
 		],
-		"writers" : [{
-				"name" : "Francis Ford Coppola",
-				"nameId" : "nm0000338"
-			}, {
-				"name" : "Mario Puzo",
-				"nameId" : "nm0701374"
-			}
+		"writers" : [
+			"Francis Ford Coppola",
+			"Mario Puzo"
 		],
-		"runtime" : ["202 min"],
 		"urlPoster" : "http://ia.media-imdb.com/images/M/MV5BNDc2NTM3MzU1Nl5BMl5BanBnXkFtZTcwMTA5Mzg3OA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
 		"countries" : ["USA"],
-		"languages" : ["English", "Italian", "Spanish", "Latin", "Sicilian"],
 		"genres" : ["Crime", "Drama"],
 		"plot" : "The continuing saga of the Corleone crime family tells the story of a young Vito Corleone growing up in Sicily and in 1910s New York; and follows Michael Corleone in the 1950s as he attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
 		"simplePlot" : "The early life and career of Vito Corleone in 1920s New York is portrayed while his son, Michael, expands and tightens his grip on his crime syndicate stretching from Lake Tahoe, Nevada to pre-revolution 1958 Cuba.",
-		"idIMDB" : "tt0071562",
 		"urlIMDB" : "http://www.imdb.com/title/tt0071562",
 		"rating" : "9.0",
-		"metascore" : "80",
-		"filmingLocations" : ["2045 N. Hibiscus Drive", "North Miami", "Florida", "USA"],
-		"rated" : "R",
-		"votes" : "752,948",
-		"type" : "Movie",
 		"ranking" : 3
 	}, {
 		"id" : 4,
 		"title" : "The Dark Knight",
-		"originalTitle" : "",
 		"year" : "2008",
-		"releaseDate" : "20080718",
-		"directors" : [{
-				"name" : "Christopher Nolan",
-				"nameId" : "nm0634240"
-			}
+		"directors" : [
+			"Christopher Nolan"
 		],
-		"writers" : [{
-				"name" : "Jonathan Nolan",
-				"nameId" : "nm0634300"
-			}, {
-				"name" : "Christopher Nolan",
-				"nameId" : "nm0634240"
-			}
+		"writers" : [
+			"Jonathan Nolan",
+			"Christopher Nolan"
 		],
-		"runtime" : ["152 min"],
 		"urlPoster" : "http://ia.media-imdb.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
 		"countries" : ["USA", "UK"],
-		"languages" : ["English", "Mandarin"],
 		"genres" : ["Action", "Crime", "Drama"],
 		"plot" : "Set within a year after the events of Batman Begins, Batman, Lieutenant James Gordon, and new district attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City until a mysterious and sadistic criminal mastermind known only as the Joker appears in Gotham, creating a new wave of chaos. Batman's struggle against the Joker becomes amazing and kill rachel",
 		"simplePlot" : "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
-		"idIMDB" : "tt0468569",
 		"urlIMDB" : "http://www.imdb.com/title/tt0468569",
 		"rating" : "9.0",
-		"metascore" : "82",
-		"filmingLocations" : ["Times Square", "Causeway Bay", "Hong Kong"],
-		"rated" : "PG-13",
-		"votes" : "1,590,893",
-		"type" : "Movie",
 		"ranking" : 4
 	}, {
 		"id" : 5,
 		"title" : "Pulp Fiction",
-		"originalTitle" : "",
 		"year" : "1994",
-		"releaseDate" : "19941014",
-		"directors" : [{
-				"name" : "Quentin Tarantino",
-				"nameId" : "nm0000233"
-			}
+		"directors" : [
+			"Quentin Tarantino"
 		],
-		"writers" : [{
-				"name" : "Quentin Tarantino",
-				"nameId" : "nm0000233"
-			}, {
-				"name" : "Roger Avary",
-				"nameId" : "nm0000812"
-			}
+		"writers" : [
+			"Quentin Tarantino",
+			"Roger Avary"
 		],
-		"runtime" : ["154 min"],
 		"urlPoster" : "http://ia.media-imdb.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_UX182_CR0,0,182,268_AL_.jpg",
 		"countries" : ["USA"],
-		"languages" : ["English", "Spanish", "French"],
 		"genres" : ["Crime", "Drama"],
 		"plot" : "Jules Winnfield and Vincent Vega are two hitmen who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace. Wallace has also asked Vincent to take his wife Mia out a few days later when Wallace himself will be out of town. Butch Coolidge is an aging boxer who is paid by Wallace to lose his next fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
-		"simplePlot" : "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-		"idIMDB" : "tt0110912",
 		"urlIMDB" : "http://www.imdb.com/title/tt0110912",
 		"rating" : "8.9",
-		"metascore" : "94",
-		"filmingLocations" : ["1435 Flower Street", "Glendale", "California", "USA"],
-		"rated" : "R",
-		"votes" : "1,263,844",
-		"type" : "Movie",
 		"ranking" : 5
 	}, {
 		"id" : 6,
 		"title" : "Schindler's List",
-		"originalTitle" : "",
 		"year" : "1993",
-		"releaseDate" : "19940204",
-		"directors" : [{
-				"name" : "Steven Spielberg",
-				"nameId" : "nm0000229"
-			}
+		"directors" : [
+			"Steven Spielberg"
 		],
-		"writers" : [{
-				"name" : "Thomas Keneally",
-				"nameId" : "nm0447745"
-			}, {
-				"name" : "Steven Zaillian",
-				"nameId" : "nm0001873"
-			}
+		"writers" : [
+			"Thomas Keneally",
+			"Steven Zaillian"
 		],
-		"runtime" : ["195 min"],
 		"urlPoster" : "http://ia.media-imdb.com/images/M/MV5BMzMwMTM4MDU2N15BMl5BanBnXkFtZTgwMzQ0MjMxMDE@._V1_UX182_CR0,0,182,268_AL_.jpg",
 		"countries" : ["USA"],
-		"languages" : ["English", "Hebrew", "German", "Polish"],
 		"genres" : ["Biography", "Drama", "History"],
 		"plot" : "Oskar Schindler is a vainglorious and greedy German businessman who becomes an unlikely humanitarian amid the barbaric Nazi reign when he feels compelled to turn his factory into a refuge for Jews. Based on the true story of Oskar Schindler who managed to save about 1100 Jews from being gassed at the Auschwitz concentration camp, it is a testament to the good in all of us.",
 		"simplePlot" : "In Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
-		"idIMDB" : "tt0108052",
 		"urlIMDB" : "http://www.imdb.com/title/tt0108052",
 		"rating" : "8.9",
-		"metascore" : "93",
-		"filmingLocations" : ["Józefa", "Kraków", "Malopolskie", "Poland"],
-		"rated" : "R",
-		"votes" : "824,465",
-		"type" : "Movie",
 		"ranking" : 6
 	}, {
 		"id" : 7,
 		"title" : "12 Angry Men",
-		"originalTitle" : "",
 		"year" : "1957",
-		"releaseDate" : "195704",
-		"directors" : [{
-				"name" : "Sidney Lumet",
-				"nameId" : "nm0001486"
-			}
+		"directors" : [
+			"Sidney Lumet"
 		],
-		"writers" : [{
-				"name" : "Reginald Rose",
-				"nameId" : "nm0741627"
-			}
+		"writers" : [
+			"Reginald Rose"
 		],
-		"runtime" : ["96 min"],
 		"urlPoster" : "http://ia.media-imdb.com/images/M/MV5BODQwOTc5MDM2N15BMl5BanBnXkFtZTcwODQxNTEzNA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
 		"countries" : ["USA"],
-		"languages" : ["English"],
 		"genres" : ["Crime", "Drama"],
 		"plot" : "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young man is guilty or innocent of murdering his father. What begins as an open-and-shut case of murder soon becomes a detective story that presents a succession of clues creating doubt, and a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other. Based on the play, all of the action takes place on the stage of the jury room.",
 		"simplePlot" : "A dissenting juror in a murder trial slowly manages to convince the others that the case is not as obviously clear as it seemed in court.",
-		"idIMDB" : "tt0050083",
 		"urlIMDB" : "http://www.imdb.com/title/tt0050083",
 		"rating" : "8.9",
-		"metascore" : "",
-		"filmingLocations" : ["New York County Courthouse - 60 Centre Street", "New York City", "New York", "USA"],
-		"rated" : "NOT RATED",
-		"votes" : "423,024",
-		"type" : "Movie",
 		"ranking" : 7
 	}, {
 		"id" : 8,
 		"title" : "The Lord of the Rings: The Return of the King",
-		"originalTitle" : "",
 		"year" : "2003",
-		"releaseDate" : "20031217",
-		"directors" : [{
-				"name" : "Peter Jackson",
-				"nameId" : "nm0001392"
-			}
+		"directors" : [
+			"Peter Jackson"],
+		"writers" : [
+			"J.R.R. Tolkien",
+			"Fran Walsh"
 		],
-		"writers" : [{
-				"name" : "J.R.R. Tolkien",
-				"nameId" : "nm0866058"
-			}, {
-				"name" : "Fran Walsh",
-				"nameId" : "nm0909638"
-			}
-		],
-		"runtime" : ["201 min"],
 		"urlPoster" : "http://ia.media-imdb.com/images/M/MV5BMjE4MjA1NTAyMV5BMl5BanBnXkFtZTcwNzM1NDQyMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
 		"countries" : ["USA", "New Zealand"],
-		"languages" : ["English", "Quenya", "Old English", "Sindarin"],
 		"genres" : ["Adventure", "Drama", "Fantasy"],
 		"plot" : "While Frodo & Sam continue to approach Mount Doom to destroy the One Ring, unaware of the path Gollum is leading them, the former Fellowship aid Rohan & Gondor in a great battle in the Pelennor Fields, Minas Tirith and the Black Gates as Sauron wages his last war against Middle-earth.",
 		"simplePlot" : "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-		"idIMDB" : "tt0167260",
 		"urlIMDB" : "http://www.imdb.com/title/tt0167260",
 		"rating" : "8.9",
-		"metascore" : "94",
-		"filmingLocations" : ["Dry Creek Quarry", "Wellington", "New Zealand"],
-		"rated" : "PG-13",
-		"votes" : "1,161,324",
-		"type" : "Movie",
 		"ranking" : 8
 	}, {
 		"id" : 9,
 		"title" : "The Good, the Bad and the Ugly",
-		"originalTitle" : "Il buono, il brutto, il cattivo",
 		"year" : "1966",
-		"releaseDate" : "19680308",
-		"directors" : [{
-				"name" : "Sergio Leone",
-				"nameId" : "nm0001466"
-			}
+		"directors" : [
+			"Sergio Leone"
 		],
-		"writers" : [{
-				"name" : "Luciano Vincenzoni",
-				"nameId" : "nm0898812"
-			}, {
-				"name" : "Sergio Leone",
-				"nameId" : "nm0001466"
-			}
+		"writers" : [
+			"Luciano Vincenzoni",
+			"Sergio Leone"
 		],
-		"runtime" : ["161 min"],
 		"urlPoster" : "http://ia.media-imdb.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_UX182_CR0,0,182,268_AL_.jpg",
 		"countries" : ["Italy", "Spain", "West Germany", "USA"],
-		"languages" : ["Italian"],
 		"genres" : ["Western"],
 		"plot" : "Blondie (The Good) is a professional gunslinger who is out trying to earn a few dollars. Angel Eyes (The Bad) is a hit man who always commits to a task and sees it through, as long as he is paid to do so. And Tuco (The Ugly) is a wanted outlaw trying to take care of his own hide. Tuco and Blondie share a partnership together making money off Tuco's bounty, but when Blondie unties the partnership, Tuco tries to hunt down Blondie. When Blondie and Tuco come across a horse carriage loaded with dead bodies, they soon learn from the only survivor (Bill Carson) that he and a few other men have buried a stash of gold in a cemetery. Unfortunately Carson dies and Tuco only finds out the name of the cemetery, while Blondie finds out the name on the grave. Now the two must keep each other alive in order to find the gold. Angel Eyes (who had been looking for Bill Carson) discovers that Tuco and Blondie met with Carson and knows they know the location of the gold. All he needs is for the two to ...",
 		"simplePlot" : "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
-		"idIMDB" : "tt0060196",
 		"urlIMDB" : "http://www.imdb.com/title/tt0060196",
 		"rating" : "8.9",
-		"metascore" : "90",
-		"filmingLocations" : ["Almería", "Andalucía", "Spain"],
-		"rated" : "NOT RATED",
-		"votes" : "481,774",
-		"type" : "Movie",
 		"ranking" : 9
 	}, {
 		"id" : 10,
 		"title" : "Fight Club",
-		"originalTitle" : "",
 		"year" : "1999",
-		"releaseDate" : "19991015",
-		"directors" : [{
-				"name" : "David Fincher",
-				"nameId" : "nm0000399"
-			}
+		"directors" : [
+			"David Fincher"
 		],
-		"writers" : [{
-				"name" : "Chuck Palahniuk",
-				"nameId" : "nm0657333"
-			}, {
-				"name" : "Jim Uhls",
-				"nameId" : "nm0880243"
-			}
+		"writers" : [
+			"Chuck Palahniuk",
+			"Jim Uhls"
 		],
-		"runtime" : ["139 min"],
 		"urlPoster" : "http://ia.media-imdb.com/images/M/MV5BMjIwNTYzMzE1M15BMl5BanBnXkFtZTcwOTE5Mzg3OA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
 		"countries" : ["USA", "Germany"],
-		"languages" : ["English"],
 		"genres" : ["Drama"],
 		"plot" : "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
-		"simplePlot" : "An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker, forming an underground fight club that evolves into something much, much more...",
-		"idIMDB" : "tt0137523",
 		"urlIMDB" : "http://www.imdb.com/title/tt0137523",
 		"rating" : "8.9",
-		"metascore" : "66",
-		"filmingLocations" : ["421 W. Eighth Street", "Los Angeles", "California", "USA"],
-		"rated" : "R",
-		"votes" : "1,281,739",
-		"type" : "Movie",
 		"ranking" : 10
-	}
+	},
+	 {
+        "id": 10,
+        "title": "Kung Fu Panda 3",
+        "year": "2016",
+        "directors": [
+			"Alessandro Carloni"
+			"Jennifer Yuh"
+        ],
+        "writers": [
+            "Jonathan Aibel",
+			"Glenn Berger"
+        ],
+        "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTUyNzgxNjg2M15BMl5BanBnXkFtZTgwMTY1NDI1NjE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "countries": [
+            "China",
+            "USA"
+        ],
+        "genres": [
+            "Animation",
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Family"
+        ],
+        "plot": "When Po's long-lost panda father suddenly reappears, the reunited duo travels to a secret panda paradise to meet scores of hilarious new panda characters. But when the supernatural villain Kai begins to sweep across China defeating all the kung fu masters, Po must do the impossible-learn to train a village full of his fun-loving, clumsy brethren to become the ultimate band of Kung Fu Pandas.",
+        "urlIMDB": "http://www.imdb.com/title/tt2267968",
+        "rating": "7.8"
+    },
+    {
+        "id": 11,
+        "title": "Deadpool",
+        "year": "2016",
+        "directors": [
+			"Tim Miller"
+        ],
+        "writers": [
+			"Rhett Reese",
+			"Paul Wernick"
+        ],
+        "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMjQyODg5Njc4N15BMl5BanBnXkFtZTgwMzExMjE3NzE@._V1_UY268_CR1,0,182,268_AL_.jpg",
+        "countries": [
+            "USA",
+            "Canada"
+        ],
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Romance",
+            "Sci-Fi"
+        ],
+        "plot": "This is the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+        "urlIMDB": "http://www.imdb.com/title/tt1431045",
+        "rating": "8.6"
+    },
+    {
+        "id": 3,
+        "title": "Risen",
+        "year": "2016",
+        "directors": [
+            {
+                "name": "Kevin Reynolds",
+                "nameId": "nm0721817"
+            }
+        ],
+        "writers": [
+            {
+                "name": "Kevin Reynolds",
+                "nameId": "nm0721817"
+            },
+            {
+                "name": "Paul Aiello",
+                "nameId": "nm2594149"
+            }
+        ],
+        "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTAzNjQ1Mzk2MjNeQTJeQWpwZ15BbWU4MDU0MDk1Mjcx._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "countries": [
+            "USA"
+        ],
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Mystery"
+        ],
+        "plot": "Follows the epic Biblical story of the Resurrection, as told through the eyes of a non-believer. Clavius, a powerful Roman Military Tribune, and his aide Lucius, are tasked with solving the mystery of what happened to Yahshua in the weeks following the crucifixion, in order to disprove the rumors of a risen Messiah and prevent an uprising in Jerusalem.",
+        "urlIMDB": "http://www.imdb.com/title/tt3231054",
+        "rating": "7.1"
+    },
+    {
+        "id": 12,
+        "title": "How to Be Single",
+        "year": "2016",
+        "directors": [
+			"Christian Ditter"
+        ],
+        "writers": [
+            {
+                "name": "Abby Kohn",
+                "nameId": "nm0463359"
+            },
+            {
+                "name": "Marc Silverstein",
+                "nameId": "nm0799050"
+            }
+        ],
+        "urlPoster": "http://ia.media-imdb.com/images/M/MV5BNzI4MDMwMzUwNF5BMl5BanBnXkFtZTgwMDgyNzkyNzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "countries": [
+            "USA"
+        ],
+        "genres": [
+            "Comedy",
+            "Romance"
+        ],
+        "plot": "There's a right way to be single, a wrong way to be single, and then...there's Alice. And Robin. Lucy. Meg. Tom. David. New York City is full of lonely hearts seeking the right match, be it a love connection, a hook-up, or something in the middle. And somewhere between the teasing texts and one-night stands, what these unmarrieds all have in common is the need to learn how to be single in a world filled with ever-evolving definitions of love. Sleeping around in the city that never sleeps was never so much fun.",
+        "urlIMDB": "http://www.imdb.com/title/tt1292566",
+        "rating": "6.3"
+    },
+    {
+        "id": 13,
+        "title": "Zoolander 2",
+        "year": "2016",
+        "directors": [
+			"Ben Stiller"
+        ],
+        "writers": [
+			"Justin Theroux",
+			"Ben Stiller"
+        ],
+        "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMjI2MjQxNTQzOV5BMl5BanBnXkFtZTgwMDE2MTY2NzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "countries": [
+            "USA"
+        ],
+        "genres": [
+            "Comedy"
+        ],
+        "plot": "Derek and Hansel are lured into modeling again, in Rome, where they find themselves the target of a sinister conspiracy.",
+        "urlIMDB": "http://www.imdb.com/title/tt1608290",
+        "rating": "5.2"
+    },
+    {
+        "id": 14,
+        "title": "The Witch",
+        "year": "2015",
+        "directors": [
+			"Robert Eggers"
+        ],
+        "writers": [
+			"Robert Eggers"
+        ],
+        "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTY4MTU2NjMyNV5BMl5BanBnXkFtZTgwMzUwMDk4NzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "countries": [
+            "USA",
+            "UK",
+            "Canada",
+            "Brazil"
+        ],
+        "genres": [
+            "Horror",
+            "Mystery"
+        ],
+        "plot": "New England, 1630: William and Katherine lead a devout Christian life, homesteading on the edge of an impassible wilderness, with five children. When their newborn son mysteriously vanishes and their crops fail, the family begins to turn on one another. 'The Witch' is a chilling portrait of a family unraveling within their own fears and anxieties, leaving them prey for an inescapable evil.",
+        "urlIMDB": "http://www.imdb.com/title/tt4263482",
+        "rating": "7.5"
+    },
+    {
+        "id": 14,
+        "title": "Race",
+        "year": "2016",
+        "directors": [
+			"Stephen Hopkins"
+        ],
+        "writers": [
+			"Joe Shrapnel",
+			"Anna Waterhouse"
+        ],
+        "urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTQ3MDM1MDU2NF5BMl5BanBnXkFtZTgwMzM3OTIzNzE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "countries": [
+            "France",
+            "Germany",
+            "Canada"
+        ],
+        "genres": [
+            "Biography",
+            "Drama",
+            "Sport"
+        ],
+        "plot": "Jesse Owens' quest to become the greatest track and field athlete in history thrusts him onto the world stage of the 1936 Olympics, where he faces off against Adolf Hitler's vision of Aryan supremacy.",
+        "urlIMDB": "http://www.imdb.com/title/tt3499096",
+        "rating": "6.8"
+    },
+    {
 ]

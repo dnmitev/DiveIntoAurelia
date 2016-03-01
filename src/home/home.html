@@ -12,16 +12,16 @@
             </thead>
 
             <tbody>
-                <tr repeat.for="movie of movies" click.trigger="getMovieDetails(movie.id)" class="clickable-row">
-                    <td>${movie.ranking}</td>
-                    <td>${movie.title}</td>
+                <tr repeat.for="movie of movies" click.trigger="getMovieDetails(movie.Id)" class="clickable-row">
+                    <td>${movie.Ranking}</td>
+                    <td>${movie.Title}</td>
                     <td>
-                        <div class="chip" repeat.for="genre of movie.genres">
-                            ${genre}
+                        <div class="chip">
+                            ${movie.Genre}
                         </div>
                     </td>
                     <td>
-                        ${movie.rating}
+                        ${movie.Rating}
                     </td>
                 </tr>
             </tbody>

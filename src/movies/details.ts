@@ -10,25 +10,13 @@ export class Details {
         http.configure(config => {
             config
                 .useStandardConfiguration()
-                .withBaseUrl('/data/');
+                .withBaseUrl('http://localhost:27765/api/movies/');
         });
     }
 
     activate(params, routeConfig) {
-        return this.http.fetch('top10.json')
-            .then(response => response.json())
-            .then(movies => {
-                movies.map((movie) => {
-                    if (movie.id == params.id) {
-                        this.movie = movie;
-                    }
-                });
-            });
-    }
-}
-
-export class UpperValueConverter {
-    toView(value) {
-        return value && value.toUpperCase();
-    }
+        return this.http.fetch(`get-movie/${params.id}`)
+                    .then(response => response.json())
+                    .then(movie => this.movie = movie);
+    });
 }

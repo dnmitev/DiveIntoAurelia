@@ -11,19 +11,13 @@ export class Theaters {
         http.configure(config => {
             config
                 .useStandardConfiguration()
-                .withBaseUrl('/data/');
+                .withBaseUrl('http://localhost:27765/api/movies/');
         });
     }
 
     activate() {
-        return this.http.fetch('inTheaters.json')
+        return this.http.fetch('theaters-movies')
             .then(response => response.json())
             .then(movies => this.movies = movies);
     }
-}
-
-export class UpperValueConverter {
-  toView(value) {
-    return value && value.toUpperCase();
-  }
 }

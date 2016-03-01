@@ -12,12 +12,12 @@ export class Home {
         http.configure(config => {
             config
                 .useStandardConfiguration()
-                .withBaseUrl('/data/');
+                .withBaseUrl('http://localhost:27765/api/movies/');
         });
     }
 
     activate() {
-        return this.http.fetch('top10.json')
+        return this.http.fetch('top-movies')
             .then(response => response.json())
             .then(movies => this.movies = movies);
     }
@@ -27,10 +27,4 @@ export class Home {
             id: id
         });
     }
-}
-
-export class UpperValueConverter {
-  toView(value) {
-    return value && value.toUpperCase();
-  }
 }

@@ -1,0 +1,14 @@
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\bin\Debug\App.Data.dll.config
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\bin\Debug\App.Data.dll
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\bin\Debug\App.Data.pdb
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\bin\Debug\App.Models.dll
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\bin\Debug\EntityFramework.dll
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\bin\Debug\App.Models.pdb
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\bin\Debug\EntityFramework.xml
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\obj\Debug\App.Data.csprojResolveAssemblyReference.cache
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\obj\Debug\App.Data.dll
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Data\obj\Debug\App.Data.pdb

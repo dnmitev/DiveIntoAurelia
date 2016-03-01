@@ -1,0 +1,10 @@
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Models\bin\Debug\App.Models.dll.config
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Models\bin\Debug\App.Models.dll
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Models\bin\Debug\App.Models.pdb
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Models\bin\Debug\EntityFramework.dll
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Models\bin\Debug\EntityFramework.xml
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Models\obj\Debug\App.Models.dll
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Models\obj\Debug\App.Models.pdb
+C:\Users\Dimitar.Mitev\Desktop\DiveIntoAurelia\AureliaWebServices\App.Models\obj\Debug\App.Models.csprojResolveAssemblyReference.cache
