@@ -60,11 +60,16 @@
             return Ok(data);
         }
 
+        [HttpPut]
         [HttpOptions]
-        [HttpPost]
         [Route("edit-movie")]
         public IHttpActionResult EditMovie([FromBody]Movie movie)
         {
+            if (movie == null)
+            {
+                return this.BadRequest();
+            }
+
             var movieToEdit = this.Data.Movies
                                         .All()
                                         .FirstOrDefault(m => m.Id == movie.Id);
@@ -86,6 +91,7 @@
         }
 
         [HttpPost]
+        [HttpOptions]
         [Route("create-movie")]
         public IHttpActionResult CreateMovie([FromBody]Movie movie)
         {
